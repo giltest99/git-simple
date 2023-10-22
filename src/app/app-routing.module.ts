@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { TestComponentComponent } from './test-component/test-component.component';
+import { StorageComponent } from './storage/storage.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, title: 'Home' },
   { path: 'test', component: TestComponentComponent, title: 'Test' },
+  { path: 'storage', component: StorageComponent, title: 'Storage' },
   { path: '**', component: NotFoundComponent, title: 'Not found' },
 ];
 

@@ -9,5 +9,6 @@ export class NavigationComponent {
   links = [
     { linkName: 'Home', linkUrl: '/' },
     { linkName: 'Test', linkUrl: '/test' },
+    { linkName: 'Storage', linkUrl: '/storage' },
   ];
 }

@@ -3,7 +3,7 @@
     <li *ngFor="let link of links" class="py-2">
       <a
         routerLink="{{ link.linkUrl }}"
-        routerLinkActive="underline"
+        routerLinkActive="underline underline-offset-8 decoration-2"
         [routerLinkActiveOptions]="{ exact: true }"
       >
         {{ link.linkName }}</a
